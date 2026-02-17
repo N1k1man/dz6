@@ -1,3 +1,23 @@
+var str = "hello";
+var num = 10;
+
+var undef;
+console.log(undef);
+
+console.log(Boolean(""));
+
+console.log(Boolean(str));
+
+console.log(num / str);
+
+console.log(typeof num);
+
+console.log(typeof str);
+
+
+
+
+
 var sum = Number(prompt("Введи сумму:"));
 
 if (isNaN(sum) || sum < 0) {
